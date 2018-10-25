@@ -30,7 +30,7 @@ The rest of the code in main.cpp is used to print whether the user wins or loses
 
 The three changable variables in this program that can be altered to increase or decrease difficulty are: number of max guesses, the codespan (how big the numbers can be), or the codelength (how long the generated code actually is)
 
-
+![randomnumbergeneratorvariables](https://user-images.githubusercontent.com/44346659/47521680-3eacc880-d859-11e8-9f5f-c9dbca591c3f.PNG)
 
 These three variables can be changed at the start of the main file and once altered will change the program on its own. Just remember to re-compile and run to keep your changes.
 
