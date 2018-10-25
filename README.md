@@ -18,7 +18,7 @@ When you download the included project, first unzip the project. Once you have D
 
 ### Summary ####
 
-This project is made up of three files: the main.cpp, the Project1.h, Project1.cpp.
+**This project is made up of three files: the main.cpp, the Project1.h, Project1.cpp.
 
 The Project1.h consists of declarations of variables and functions. 
 
