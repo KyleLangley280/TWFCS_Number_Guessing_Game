@@ -20,11 +20,13 @@ When you download the included project, first unzip the project. Once you have D
 
 This project is made up of three files: the main.cpp, the Project1.h, Project1.cpp.
 
-The Project1.h consists of declarations of variables and functions. The Project1.cpp controls most of the system output of the program and controls much of the input as well. The input given is also ran through a length-checker to make sure that the input given fits the fixed code length.
+The Project1.h consists of declarations of variables and functions. 
 
-The third, and chunky, file is the main.cpp which controls and executes the program. The beginning of this file contains most of the variables used to hold user inputs and guesses.  The game is created to run off of a while loop. This while loop can be found on line 44 of the main file and is set to run off of a game_over variable. As long as game_over is false, the program continues to run. This switch is set to true when either the user uses all of their guesses (designated by the MAX_GUESSES variable) or gets the number correct. The chunk of the while loop is made up of two for loops. These two for-loops cycle through the computer-generated number and the user-entered number and first checks to see what digits match perfectly and then check to see what numbers match but are misplaced in the user’s guess. If all numbers match, the game_over variable is switched to true and the user wins.
+The Project1.cpp controls most of the system output of the program and controls much of the input as well. The input given is also ran through a length-checker to make sure that the input given fits the fixed code length.
+
+The main.cpp is the biggest of the files and actually has most of the game-running code. The beginning of this file contains most of the variables used to hold user inputs and guesses.  The game is created to run off of a while loop. This while loop can be found on line 44 of the main file and is set to run off of a game_over variable. As long as game_over is false, the program continues to run. This switch is set to true when either the user uses all of their guesses (designated by the MAX_GUESSES variable) or gets the number correct. The chunk of the while loop is made up of two for loops. These two for-loops cycle through the computer-generated number and the user-entered number and first checks to see what digits match perfectly and then check to see what numbers match but are misplaced in the user’s guess. If all numbers match, the game_over variable is switched to true and the user wins.
   
-The rest of the code in main.cpp is used to print whether the user wins or loses (in how many guesses) and asks if the user would like to play again. Depending on the answer (Y/N), the program chooses to run again or stop. If the user chooses to stop, the program thanks the user and closes.
+*The rest of the code in main.cpp is used to print whether the user wins or loses (in how many guesses) and asks if the user would like to play again. Depending on the answer (Y/N), the program chooses to run again or stop. If the user chooses to stop, the program thanks the user and closes.*
 
 #### Extra Control ####
 
