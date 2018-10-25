@@ -6,10 +6,14 @@ My name is Kyle Langley and this code I have uploaded was originally made as a m
 
 #### One Example of the Finished Program ####
 
+![randomnumbergenerator1](https://user-images.githubusercontent.com/44346659/47521565-00afa480-d859-11e8-98dd-4cd972959567.PNG)
+
+
 ### How to download? How to run? ###
 
 This project was coded in the C++ IDE: #### DEV C++ ####
 To download this IDE go to: https://sourceforge.net/projects/orwelldevcpp/files/latest/download
+
 When you download the included project, first unzip the project. Once you have Dev C++ downloaded and open, run the Project1.dev file and it should open up all the included files needed to run the program. Once opened, press the compile and run button (F11) and it should load up on its own!
 
 ### Summary ####
